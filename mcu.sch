@@ -956,15 +956,15 @@ CCLOCK
 Wire Wire Line
 	9025 3800 9125 3800
 $Comp
-L C C24
+L CP1_Small C24
 U 1 1 584B750C
 P 7300 1925
 F 0 "C24" H 7325 2025 50  0000 L CNN
 F 1 "1uF" H 7325 1825 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7338 1775 50  0001 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 7338 1775 50  0001 C CNN
 F 3 "" H 7300 1925 50  0000 C CNN
 	1    7300 1925
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR051
@@ -978,10 +978,10 @@ F 3 "" H 7300 2125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2075 7300 2125
-Wire Wire Line
-	7300 1775 7300 1750
-Wire Wire Line
 	7300 1750 6775 1750
 Connection ~ 6775 1750
+Wire Wire Line
+	7300 1750 7300 1825
+Wire Wire Line
+	7300 2025 7300 2125
 $EndSCHEMATC
