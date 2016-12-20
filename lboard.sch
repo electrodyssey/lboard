@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 1 3
 Title "Power and high-level interconnect"
 Date ""
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""

@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 3 3
 Title "FPGA GPIO"
 Date ""
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""

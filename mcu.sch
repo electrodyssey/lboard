@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 2 3
 Title "Configuration loader"
 Date ""
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""
