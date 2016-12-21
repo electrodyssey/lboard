@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:lboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -76,7 +77,7 @@ U 1 1 57E2FCF0
 P 4050 2125
 F 0 "Y1" H 4050 2275 50  0000 C CNN
 F 1 "11.059MHz" H 4050 1975 50  0000 C CNN
-F 2 "Crystals:Crystal_HC52-U_Vertical" H 4050 2125 50  0001 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 4050 2125 50  0001 C CNN
 F 3 "" H 4050 2125 50  0000 C CNN
 	1    4050 2125
 	0    -1   -1   0   
@@ -389,9 +390,11 @@ F 3 "" H 3825 925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-lboard D2
 U 1 1 57E66175
 P 3575 725
+AR Path="/57E66175" Ref="D2"  Part="1" 
+AR Path="/57DEC595/57E66175" Ref="D2"  Part="1" 
 F 0 "D2" H 3575 825 50  0000 C CNN
 F 1 "LED" H 3575 625 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 3575 725 50  0001 C CNN
@@ -433,7 +436,7 @@ F 3 "" H 4100 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B P2
+L USB_B-RESCUE-lboard P2
 U 1 1 57E6ECB3
 P 1375 4950
 F 0 "P2" H 1575 4750 50  0000 C CNN

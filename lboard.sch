@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:lboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -791,7 +792,7 @@ Wire Bus Line
 Text Label 7250 3550 0    60   ~ 0
 CD[0..7]
 $Comp
-L TEST GNDTST1
+L TEST-RESCUE-lboard GNDTST1
 U 1 1 584A94E7
 P 3875 2525
 F 0 "GNDTST1" H 3875 2585 50  0000 C CNN
