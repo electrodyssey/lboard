@@ -7,5 +7,5 @@ Configuration is slow - around 3 seconds. That's an outcome of Atmega's slow gpi
 There is no switched step-down psu on the board, power is regulated with a linear ldo
 
 
-![alt text](https://github.com/electrodyssey/lboard/blob/master/plot/lboard.jpg?raw=true "lboard")
+![alt text](https://github.com/electrodyssey/lboard/blob/master/lboard.jpg?raw=true "lboard")
 
